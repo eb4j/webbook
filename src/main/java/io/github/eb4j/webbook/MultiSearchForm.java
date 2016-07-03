@@ -69,6 +69,7 @@ public class MultiSearchForm {
      *
      * @return 検索語
      */
+    @edu.umd.cs.findbugs.annotations.SuppressWarnings(value="EI_EXPOSE_REP")
     public String[] getWord() {
         return _word;
     }

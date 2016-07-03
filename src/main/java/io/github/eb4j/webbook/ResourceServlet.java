@@ -33,6 +33,7 @@ import static io.github.eb4j.webbook.WebBookConstants.KEY_WEBBOOK_BEAN;
  *
  * @author Hisaya FUKUMOTO
  */
+@edu.umd.cs.findbugs.annotations.SuppressWarnings(value="SE_NO_SERIALVERSIONID")
 public class ResourceServlet extends HttpServlet {
 
     /** PNG */

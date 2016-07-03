@@ -19,6 +19,7 @@ import static io.github.eb4j.webbook.WebBookConstants.KEY_WEBBOOK_CONFIG;
  *
  * @author Hisaya FUKUMOTO
  */
+@edu.umd.cs.findbugs.annotations.SuppressWarnings(value="SE_NO_SERIALVERSIONID")
 public class FontTableTag extends TagSupport {
 
     /** 書籍エントリ */
