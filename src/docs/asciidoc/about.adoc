@@ -1,0 +1,17 @@
+= ABOUT
+:doctype:   article
+:docinfo:
+:toc:
+:toclevels: 2
+
+
+== About webbook
+
+WebBook is web application using EB4J library.
+
+== No warranty
+
+Webbook is distributed without any warranty.
+
+== Contacts
+

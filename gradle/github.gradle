@@ -1,0 +1,13 @@
+github {
+    owner = projectOwner
+    repo = 'webbook'
+    token = githubToken
+    tagName = projectTag
+    targetCommitish = 'master'
+    name = projectTag
+    draft = true
+    body = projectReleaseBody
+    assets = [
+            'build/libs/webbook-' + projectVersion + '.war',
+    ]
+}
